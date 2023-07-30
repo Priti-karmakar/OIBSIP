@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(#55dfeb,#000bd9);
+    /* background: black; */
+}
+
+.box{
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(#262424,#000000);
+}
+
+.button{
+    padding:20px;
+    margin: 3px;
+    width: 68px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(#787373,#363535);
+    color: white;
+}
+
+.operation{
+    /* background: linear-gradient(#ec136e,#69065b); */
+    /* background: linear-gradient(#fbba07,#fb1f02); */
+    background: rgb(32, 187, 248);
+    border-radius: 30px;
+}
+
+.ebutton{
+    width: 216px;
+    /* background: linear-gradient(#ea09ee,#0904a4); */
+    /* background: linear-gradient(#f92d96,#df0667); */
+
+    background: orangered;
+    border-radius: 20px;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    width: 360px;
+    margin: 0;
+    padding: 30px 3px;
+    outline: none;
+    border-radius: 11px;
+    font-size: 23px;
+    color: white;
+    /* background: linear-gradient(#fbfbfb,#f357a2); */
+    background: linear-gradient(#9a9797,#575555);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-color{
+    background-color: red;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.item-center{
+    align-items: center;
+}
